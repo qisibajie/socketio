@@ -1,11 +1,17 @@
 {
   "name": "my-project-name",
   "version": "1.1.0",
+  "license":"MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://path/to/url"
+  },
   "devDependencies": {
     "grunt": "~0.4.1",
     "grunt-contrib-jshint": "~0.6.0",
     "grunt-contrib-nodeunit": "~0.2.0",
     "grunt-contrib-uglify": "~0.2.2",
-    "express":"~4.13.4"
+    "express":"~4.13.4",
+    "socket.io": "~1.0.6"
   }
 }
